@@ -17,7 +17,7 @@ const student2: Student = {
 	age: 18,
 	location: 'Naivasha'
 }
-const studentsList = [student1, student2]
+const studentsList: Student[] = [student1, student2]
 
 // render a table, appending a row for each of the elements in the array
 // console.log(studentsList)
